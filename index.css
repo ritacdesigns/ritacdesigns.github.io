@@ -4,6 +4,17 @@ body
     {   background-color: white; 
         font-family: "Edu NSW ACT Foundation", bold;}
 
+header 
+    {   text-align: center;
+        margin: 2em;
+        /*background-color: aquamarine;*/ }
+
+nav li 
+    {
+        display: inline;
+        margin-left: 20px;
+    }
+
 a 
     { font-size: 1.5em; }
 
@@ -22,16 +33,43 @@ p
 
 ul li 
     {   color: green; 
-        font-size: 1.2em; }
+        font-size: 1.2em;
+        list-style-type: square; }
 
 ol li
     {   color: red; 
-        font-size: 1em; } 
+        font-size: 1em;
+        list-style-type: lower-alpha; } 
+
+li 
+    {   margin-bottom: 0.3em ;  }
+
+table
+    {   width:40%   }
+
+th, td
+    {   padding: 0.5em ;
+        text-align: center;
+        font-size: 1em;   }
 
 th
     {   color: blue;
+        font-size: 1.2em;
         line-height: 1.5em; }
 
 td 
     {   background-color: lightgray; }
 
+td:hover
+    {   background-color: lightskyblue; }
+
+img
+    {   float: left;
+        width: 300px; }
+
+p a 
+    {   font-size: 1.2em ;}
+
+iframe
+    {   width: 300px;
+        height: 300px;  }
