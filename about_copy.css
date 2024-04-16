@@ -7,13 +7,13 @@ body
     }
 
 /* BARRA DE NAVEGAÇÃO */
-li 
+header li 
     {
         display: inline;
         float:right;
     }
 
-ul {
+header ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -31,19 +31,19 @@ ul {
         outline-style: solid;
     }
 
-li a {
+header li a {
         display: block;
         text-align: center;
         padding: 20px 20px;
         text-decoration: none;
     }  
 
-li a:hover 
+header li a:hover 
     {
         background-color: rgb(197, 196, 196);
     }
 
-li a:visited 
+header li a:visited 
     {
         color: black;
     }
@@ -52,51 +52,52 @@ li a:visited
 h1
     {
         text-align: right; 
-        font-size: 80px; 
+        font-size: 40px; 
     }
 
 h2
     {
-        text-align: center;
+        text-align: right;
     }
 
 h3
     {
-        text-align: right;
-        font-size: 30px;
+        text-align: left;
     }
 
 h4
     {
-        text-align: center;
+        text-align: right;
     }
 
 p
     {
-        text-align: center;
+        text-align: right;
     }
 
-/* GALERIA */
-figure 
+
+/* LISTAS */
+ul
     {
-      width: 20%;
-      
-      float:left;
-      
-      margin-top: 20px;
-      margin-left: 20px;
+        list-style-type: circle;
+        list-style-position: outside;
     }
 
-figure img 
+ul ul
     {
-      width: 100%;
+        list-style-type: disc;
     }
-    
-    
-figcaption 
-    {
-      text-align: center
+
+/* IMAGEM */
+img
+    {   
+        float: left;
+        margin-left: 100px;
+        margin-right: 50px;
+        width: 300px;
     }
+
+
 
 /* RODAPÉ */
 footer
@@ -108,4 +109,9 @@ footer
         outline-color: black;
         outline-style: solid;
         outline-offset: 20px;
+    }
+
+footer p
+    {
+        text-align: center;
     }
