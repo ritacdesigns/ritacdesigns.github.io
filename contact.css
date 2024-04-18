@@ -7,13 +7,13 @@ body
     }
 
 /* BARRA DE NAVEGAÇÃO */
-li 
+header li 
     {
         display: inline;
         float:right;
     }
 
-ul {
+header ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -31,19 +31,19 @@ ul {
         outline-style: solid;
     }
 
-li a {
+header li a {
         display: block;
         text-align: center;
         padding: 20px 20px;
         text-decoration: none;
     }  
 
-li a:hover 
+header li a:hover 
     {
         background-color: rgb(197, 196, 196);
     }
 
-li a:visited 
+header li a:visited 
     {
         color: black;
     }
@@ -55,28 +55,31 @@ h1
         font-size: 40px; 
     }
 
-/* GALERIA */
-figure 
-    {
-      width: 20%;
-      
-      float:left;
-      
-      margin-top: 20px;
-      margin-left: 20px;
+
+a
+    {   
+        color:black;
     }
 
-figure img 
-    {
-      width: 100%;
-    }
-    
-    
-figcaption 
-    {
-      text-align: center
+a:visited
+    {  
+        color:black;
     }
 
+/* MAPA */
+
+/*iframe
+    {
+        float:left;
+    }
+*/
+
+/* IMAGENS */
+
+img
+    {
+        margin: 20px
+    }
 /* RODAPÉ */
 footer
     {
@@ -90,6 +93,6 @@ footer
     }
 
 footer p
-{
-    text-align: center;
-}
+    {
+        text-align: center;
+    }
