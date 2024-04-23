@@ -4,6 +4,8 @@ body
     {   
         background-color: white; 
         font-family: "Edu NSW ACT Foundation", bold;
+        margin: 0;
+        padding: 0;
     }
 
 /* BARRA DE NAVEGAÇÃO */
@@ -75,11 +77,11 @@ a:visited
 */
 
 /* IMAGENS */
-
 img
     {
         margin: 20px
     }
+
 /* RODAPÉ */
 footer
     {

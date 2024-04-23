@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap') ;
 
+/* COR DO WEBSITE E TIPOGRAFIA */
 body 
     {   
         background-color: white; 
         font-family: "Edu NSW ACT Foundation", bold;
+        margin: 0;
+        padding: 0;
     }
 
 /* BARRA DE NAVEGAÇÃO */
@@ -46,6 +49,12 @@ li a:hover
 li a:visited 
     {
         color: black;
+    }
+
+/* MAIN */
+main
+    {
+        margin-left: 5%;
     }
 
 /* TEXTO */

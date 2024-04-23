@@ -4,6 +4,8 @@ body
     {   
         background-color: white; 
         font-family: "Edu NSW ACT Foundation", bold;
+        margin: 0;
+        padding: 0;
     }
 
 /* BARRA DE NAVEGAÇÃO */
@@ -95,7 +97,7 @@ figure img
     
 figcaption 
     {
-      text-align: center
+      text-align: center;
     }
 
 /* RODAPÉ */
@@ -109,3 +111,33 @@ footer
         outline-style: solid;
         outline-offset: 20px;
     }
+
+/* ------ RESPONSIVE LAYOUTS ------ */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+  body 
+  {
+    background-color: red;
+  }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+  body 
+  {
+    background-color: green;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
+{
+  body 
+  {
+    background-color: white;
+  }
+}
