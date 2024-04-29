@@ -50,6 +50,34 @@ li a:visited
         color: black;
     }
 
+/* MAIN */
+
+
+/* BOTÃO */
+main div a
+    {
+        font-size: 20px;
+        text-align: center;
+        display: block;
+        text-align: center;
+        padding: 20px 20px;
+        text-decoration: none;
+        color: black;
+        background-color: #D9D9D9;
+        width: 200px;
+    }
+
+main div a:hover
+    {
+        background-color: rgb(197, 196, 196);
+    }
+
+main div a:visited
+    {
+        color: black;
+    }
+
+
 /* TEXTO */
 h1
     {
@@ -65,12 +93,13 @@ h2
 h3
     {
         text-align: right;
-        font-size: 30px;
+        font-size: 35px;
     }
 
 h4
     {
         text-align: center;
+        font-size: 25px;
     }
 
 p
@@ -94,10 +123,10 @@ figure img
       width: 100%;
     }
     
-    
 figcaption 
     {
       text-align: center;
+      color:black;
     }
 
 /* RODAPÉ */
@@ -110,6 +139,11 @@ footer
         outline-color: black;
         outline-style: solid;
         outline-offset: 20px;
+    }
+
+footer p
+    {
+        text-align: center;
     }
 
 /* ------ RESPONSIVE LAYOUTS ------ */

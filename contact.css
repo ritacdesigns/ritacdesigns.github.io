@@ -68,13 +68,30 @@ a:visited
         color:black;
     }
 
-/* MAPA */
+/* MAIN */
+main
+    {
+        display:flex;
+        flex-direction: column;
+        
+    }
 
-/*iframe
+main div
+    {
+        float: right;
+    }
+
+#email { background-color: blue;width: 200px;}
+#instagram { background-color: red;}
+#facebook { background-color: green;}
+#behance { background-color: yellow;}
+
+/* MAPA */
+iframe
     {
         float:left;
     }
-*/
+
 
 /* IMAGENS */
 img
