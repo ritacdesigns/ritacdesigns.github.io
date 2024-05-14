@@ -19,7 +19,6 @@ a:active { color: rgb(0, 0, 0); text-decoration: none; }
 a:visited { color: rgb(0, 0, 0); text-decoration: none; }
 
 /* BARRA DE NAVEGAÇÃO */
-
 nav 
 {
     position: fixed;
@@ -233,11 +232,3 @@ footer p
         }*/
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) 
-{
-  body 
-  {
-    background-color: white;
-  }
-}
