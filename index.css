@@ -192,10 +192,10 @@ footer p
             flex-direction: column;
             padding-top: 10px;
         }
-    body 
+    /*body 
     {
         background-color: red;
-    }
+    }*/
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -227,10 +227,10 @@ footer p
             flex-direction: row;
             padding-top: 10px;
         }
-    body 
+    /*body 
         {
             background-color: green;
-        }
+        }*/
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
