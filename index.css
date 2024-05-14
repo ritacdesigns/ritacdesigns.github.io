@@ -119,12 +119,6 @@ h4
         margin-bottom: 30px;
     }
 
-p
-    {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
 /* GALERIA */
 
 section
@@ -146,6 +140,7 @@ section img
 footer
     {
         margin-top: 90px;
+        margin-bottom: 20px;
         
 
         /* linha que separa o footer do resto */
