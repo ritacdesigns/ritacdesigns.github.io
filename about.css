@@ -1,67 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap') ;
+* 
+{
+    margin: 0px;
+    padding: 0px;
+}
 
+/* COR DO WEBSITE E TIPOGRAFIA */
 body 
     {   
         background-color: white; 
         font-family: "Edu NSW ACT Foundation", bold;
-        margin: 0;
-        padding: 0;
     }
+
+a:link { color: rgb(0, 0, 0); text-decoration: none; }
+a:hover { color: rgb(0, 0, 0); text-decoration: none; }
+a:active { color: rgb(0, 0, 0); text-decoration: none; }
+a:visited { color: rgb(0, 0, 0); text-decoration: none; }
 
 /* BARRA DE NAVEGAÇÃO */
-header li 
-    {
-        display: inline;
-        float:right;
-    }
-
-header ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        font-size: 25px;
-
-        /* fixa a barra ao topo */
-        position: fixed;
-        top: 0;
+nav 
+{
+    position: fixed;
+        top: 0px;
+        left: 0px;
         width: 100%;
+        height: 70px;
 
         background-color: #D9D9D9;
         outline-width: 3px;
         outline-color: black;
         outline-style: solid;
+}
+
+nav li 
+    {
+        display: inline;
+        float:right;
     }
 
-header li a {
+nav ul {
+        list-style-type: none;
+        
+        font-size: 25px;
+
+        /* fixa a barra ao topo */
+        
+    }
+
+nav li a {
         display: block;
         text-align: center;
         padding: 20px 20px;
         text-decoration: none;
-        color:black
     }  
 
-header li a:hover 
+nav li a:hover 
     {
         background-color: rgb(197, 196, 196);
     }
 
-header li a:visited 
+nav li a:visited 
     {
         color: black;
     }
+
 
 /* TEXTO */
 h1
     {
         text-align: right; 
         font-size: 40px; 
-        margin:5%;
+        margin-right: 50px;
+        margin-top: 100px;
+        margin-bottom: 50px;
     }
 
 h2
     {
         text-align: right;
+        margin-right: 50px;
     }
 
 h3

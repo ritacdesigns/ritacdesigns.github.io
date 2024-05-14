@@ -166,6 +166,10 @@ footer p
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 300px) 
 {
+    ul
+        {
+            font-size:20px;
+        }
     h1 
         {
             font-size: 40px;
@@ -193,6 +197,10 @@ footer p
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) 
 {
+    ul
+        {
+            font-size:20px;
+        }
     h1 
         {
             font-size: 60px;
@@ -208,22 +216,10 @@ footer p
     section
         {
             flex-direction: row;
+            padding-top: 10px;
         }
     body 
         {
             background-color: green;
         }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) 
-{
-    section
-        {
-            flex-direction: row;
-        }
-  body 
-  {
-    background-color: white;
-  }
 }
