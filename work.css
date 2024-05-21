@@ -42,11 +42,7 @@ li
 
 ul {
         list-style-type: none;
-        
         font-size: 25px;
-
-        /* fixa a barra ao topo */
-        
     }
 
 li a {
@@ -76,18 +72,28 @@ h1
 section
     {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        align-content: center; 
+        justify-content: space-between;
+        align-items: flex-start;
         flex-wrap: wrap;
+        align-content: flex-start; 
         gap: 2%;
-        /*margin-bottom: 50px;*/
+        margin: 20px;
     }
 
-section img
+section>a 
+    {
+        flex-basis: 23%;
+    }
+
+section>a>figure 
     {
         width: 100%;
     }
+
+main>section>a>figure>img 
+{
+    width: 100%;
+}
 
 figcaption 
     {
