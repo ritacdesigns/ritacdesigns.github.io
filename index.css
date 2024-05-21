@@ -160,9 +160,17 @@ footer p
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 300px) 
 {
+    nav
+        {
+            height: 55px;
+        }
     ul
         {
             font-size:20px;
+        }
+    li a
+        {
+            padding: 15px 15px;
         }
     h1 
         {
@@ -195,9 +203,17 @@ footer p
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) 
 {
+    nav
+        {
+            height: 70px;
+        }
     ul
         {
             font-size:25px;
+        }
+    li a
+        {
+            padding: 20px 20px;
         }
     h1 
         {

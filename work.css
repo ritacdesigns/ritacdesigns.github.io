@@ -88,7 +88,7 @@ section
         align-content: center; 
         flex-wrap: wrap;
         gap: 2%;
-        margin-bottom: 50px;
+        /*margin-bottom: 50px;*/
     }
 
 section img
@@ -102,7 +102,11 @@ figcaption
       color: black;
     }
 
-#project {width: 310px;}
+#project 
+    {
+        width: 300px;
+        margin-bottom: 40px;
+    }
 
 /* RODAPÉ */
 footer
@@ -127,36 +131,61 @@ footer p
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 300px) 
 {
+    nav
+        {
+            height: 55px;
+        }
     ul
         {
             font-size:20px;
         }
-    
-    body
+    li a
+        {
+            padding: 15px 15px;
+        }
+    h1 
+        {
+            font-size: 30px;
+        }
+    #project 
+        {
+            width: 200px;
+            margin-bottom: 30px;
+        }
+    /*body
         {
             background-color: red;
         }
+    */
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) 
 {
+    nav
+        {
+            height: 70px;
+        }
     ul
         {
             font-size:25px;
         }
-    
-    body
+    li a
+        {
+            padding: 20px 20px;
+        }
+    h1 
+        {
+            font-size: 40px;
+        }
+        #project 
+        {
+            width: 300px;
+            margin-bottom: 40px;
+        }
+    /*body
         {
             background-color: green;
         }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) 
-{
-  body 
-  {
-    background-color: white;
-  }
+    */
 }
