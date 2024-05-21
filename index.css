@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap') ;
 
-
 * 
 {
     margin: 0px;
     padding: 0px;
 }
 
+/* COR DO WEBSITE E TIPOGRAFIA */
 body 
     {   
         background-color: white; 
         font-family: "Edu NSW ACT Foundation", bold;
     }
 
+/* LINKS */
 a:link { color: rgb(0, 0, 0); text-decoration: none; }
 a:hover { color: rgb(0, 0, 0); text-decoration: none; }
 a:active { color: rgb(0, 0, 0); text-decoration: none; }
@@ -54,11 +55,6 @@ li a {
 li a:hover 
     {
         background-color: rgb(197, 196, 196);
-    }
-
-li a:visited 
-    {
-        color: black;
     }
 
 
@@ -120,7 +116,6 @@ h4
     }
 
 /* GALERIA */
-
 section
     {
         display: flex;

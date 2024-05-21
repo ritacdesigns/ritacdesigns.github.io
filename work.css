@@ -12,7 +12,8 @@ body
         background-color: white; 
         font-family: "Edu NSW ACT Foundation", bold;
     }
-
+    
+/* LINKS */
 a:link { color: rgb(0, 0, 0); text-decoration: none; }
 a:hover { color: rgb(0, 0, 0); text-decoration: none; }
 a:active { color: rgb(0, 0, 0); text-decoration: none; }
@@ -59,14 +60,6 @@ li a:hover
     {
         background-color: rgb(197, 196, 196);
     }
-
-li a:visited 
-    {
-        color: black;
-    }
-
-
-/* MAIN */
 
 
 /* TEXTO */

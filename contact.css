@@ -6,12 +6,14 @@
     padding: 0px;
 }
 
+/* COR DO WEBSITE E TIPOGRAFIA */
 body 
     {   
         background-color: white; 
         font-family: "Edu NSW ACT Foundation", bold;
     }
 
+/* LINKS */
 a:link { color: rgb(0, 0, 0); text-decoration: none; }
 a:hover { color: rgb(0, 0, 0); text-decoration: none; }
 a:active { color: rgb(0, 0, 0); text-decoration: none; }
@@ -85,7 +87,7 @@ main
         font-size: 20px;
         padding-left: 50px;
         padding-right: 50px;
-        margin-bottom: 115px;
+        margin-bottom: 95px;
     }
 
     address 
@@ -106,6 +108,7 @@ main
         justify-content:flex-end;
         align-items: center;
     }
+
 /*
 #email { background-color: blue;}
 #instagram { background-color: red;}
@@ -131,7 +134,7 @@ img
 /* RODAPÉ */
 footer
     {
-        margin-top: 120px;
+        margin-top: 90px;
         margin-bottom: 20px;
 
         /* linha que separa o footer do resto */
@@ -145,3 +148,75 @@ footer p
     {
         text-align: center;
     }
+
+
+/* ------ RESPONSIVE LAYOUTS ------ */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 300px) 
+{
+    nav
+        {
+            height: 55px;
+        }
+    ul
+        {
+            font-size:20px;
+        }
+    li a
+        {
+            padding: 15px 15px;
+        }
+    h1 
+        {
+            font-size: 30px;
+        }
+    main
+        {
+            flex-direction: column;
+        }
+    /*body
+        {
+            background-color: red;
+        }
+    */
+    footer
+        {
+            margin-top: 110px;
+        }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+    nav
+        {
+            height: 70px;
+        }
+    ul
+        {
+            font-size:25px;
+        }
+    li a
+        {
+            padding: 20px 20px;
+        }
+    h1 
+        {
+            font-size: 40px;
+        }
+    main
+        {
+            flex-direction: row;
+        }
+    body
+        {
+            background-color: green;
+        }
+    footer
+        {
+            margin-top: 160px;
+        }
+    
+}
