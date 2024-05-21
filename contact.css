@@ -61,11 +61,6 @@ li a:hover
         background-color: rgb(197, 196, 196);
     }
 
-li a:visited 
-    {
-        color: black;
-    }
-
 /* TEXTO */
 h1
     {
@@ -90,7 +85,7 @@ main
         margin-bottom: 95px;
     }
 
-    address 
+address 
     {
         flex-basis: 50%;
         display:flex;
@@ -100,7 +95,7 @@ main
         font-size: 20px;
     }
 
-    address>div 
+address>div 
     {
         width: 100%;
         height: 100px;
@@ -210,13 +205,14 @@ footer p
         {
             flex-direction: row;
         }
-    body
+    /*body
         {
             background-color: green;
         }
+    */
     footer
         {
-            margin-top: 160px;
+            margin-top: 140px;
         }
     
 }

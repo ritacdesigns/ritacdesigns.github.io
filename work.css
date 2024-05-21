@@ -12,7 +12,7 @@ body
         background-color: white; 
         font-family: "Edu NSW ACT Foundation", bold;
     }
-    
+
 /* LINKS */
 a:link { color: rgb(0, 0, 0); text-decoration: none; }
 a:hover { color: rgb(0, 0, 0); text-decoration: none; }
@@ -171,7 +171,7 @@ footer p
         {
             font-size: 40px;
         }
-        #project 
+    #project 
         {
             width: 300px;
             margin-bottom: 40px;
