@@ -72,6 +72,7 @@ h1
 section
     {
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
         flex-wrap: wrap;
@@ -88,6 +89,7 @@ section>a
 section>a>figure 
     {
         width: 100%;
+        margin-bottom: 20px;
     }
 
 main>section>a>figure>img 
@@ -99,12 +101,6 @@ figcaption
     {
       text-align: center;
       color: black;
-    }
-
-#project 
-    {
-        width: 300px;
-        margin-bottom: 40px;
     }
 
 /* RODAPÉ */
@@ -128,7 +124,7 @@ footer p
 /* ------ RESPONSIVE LAYOUTS ------ */
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 300px) 
+@media only screen and (max-width: 600px) 
 {
     nav
         {
@@ -146,20 +142,19 @@ footer p
         {
             font-size: 30px;
         }
-    #project 
+    section
         {
-            width: 250px;
-            margin-bottom: 30px;
+            flex-direction: column;
         }
-    /*body
+    body
         {
             background-color: red;
         }
-    */
+    
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) 
+@media only screen and (min-width: 600px) 
 {
     nav
         {
@@ -177,14 +172,13 @@ footer p
         {
             font-size: 40px;
         }
-    #project 
+    section
         {
-            width: 300px;
-            margin-bottom: 40px;
+            flex-direction:row;
         }
-    /*body
+    body
         {
             background-color: green;
         }
-    */
+    
 }
