@@ -68,10 +68,30 @@ h1
 /* MAIN */
 main
     {
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-bottom: 95px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-bottom: 90px;
         background-color: aqua;
+    }
+
+section
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        align-content: flex-start; 
+        gap: 2%;
+    }
+
+section>article
+    {
+        flex-basis: 23%;
+    }
+
+section>article>img 
+    {
+        width: 100%;
     }
 
 /* LISTAS */
@@ -89,12 +109,11 @@ ul ul
         list-style-position:inside;
     }
 
-/* IMAGEM */
-
 
 /* RODAPÉ */
 footer
     {
+        margin-bottom: 20px;
         /* linha que separa o footer do resto */
         outline-width: 2px;
         outline-color: black;
@@ -108,22 +127,4 @@ footer p
     }
 
 
-    section
-    {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        flex-wrap: wrap;
-        align-content: flex-start; 
-        gap: 2%;
-    }
-
-    section>article
-    {
-        flex-basis: 23%;
-    }
-
-    section>article>img 
-    {
-        width: 100%;
-    }
+    
