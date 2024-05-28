@@ -96,6 +96,17 @@ video
         place-content: center;
     }
 
+.video article 
+{
+    display: grid;
+    place-items: center center;
+}
+
+.video>article>iframe 
+{
+    width: 100%;
+}
+
 .imagem>article>video
     {
         width:85%;

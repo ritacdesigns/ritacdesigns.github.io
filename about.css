@@ -119,10 +119,11 @@ h3
 /* LISTA */
 .lista
   {
+    display:grid;
     background-color: plum;
     padding:20px;
     grid-area: main;
-    place-items: center;
+    place-items: center center;
   }
 
 /* PROGRAMAS */
@@ -132,7 +133,7 @@ h3
     padding:20px;
     grid-area: footer;
     display: flex;
-    place-content: center;
+    place-content: center center;
     gap: 5%;
     text-align: center;
   }
