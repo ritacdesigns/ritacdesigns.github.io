@@ -175,10 +175,6 @@ footer p
         {
             font-size: 30px;
         }
-    body
-        {
-            background-color: red;
-        }
     .container 
     {
         grid-template-columns: 1fr;
@@ -211,10 +207,6 @@ footer p
     h1 
         {
             font-size: 40px;
-        }
-    body
-        {
-            background-color: green;
         }
     .container 
         {

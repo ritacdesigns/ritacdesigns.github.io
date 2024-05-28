@@ -148,11 +148,6 @@ footer p
         {
             flex-direction: column;
         }
-    /*body
-        {
-            background-color: red;
-        }
-    */
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -178,9 +173,4 @@ footer p
         {
             flex-direction:row;
         }
-    /*body
-        {
-            background-color: green;
-        }
-    */   
 }

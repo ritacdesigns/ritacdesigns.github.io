@@ -100,13 +100,6 @@ address>div
         align-items: center;
     }
 
-/*
-#email { background-color: blue;}
-#instagram { background-color: red;}
-#facebook { background-color: green;}
-#behance { background-color: yellow;}
-*/
-
 /* MAPA */
 iframe
     {
@@ -167,11 +160,6 @@ footer p
         {
             flex-direction: column;
         }
-    body
-        {
-            background-color: red;
-        }
-    
     footer
         {
             margin-top: 110px;
@@ -207,11 +195,6 @@ footer p
         {
             flex-direction: row;
         }
-    /*body
-        {
-            background-color: green;
-        }
-    */
     footer
         {
             margin-top: 140px;
