@@ -1,55 +1,74 @@
-* 
-{
-    margin: 0px;
-    padding: 0px;
-}
+/*
+ESAD.CR - Design Gráfico e Multimédia
+2023/2024 - 3ºano, 2ºsemestre
+Laboratório de Projeto II - Professor Marco Heleno
 
-/* COR DO WEBSITE E TIPOGRAFIA */
+Rita Alves da Cruz 3210506
+31/05/2024
+*/
+
+
+/* define a margem da página na sua totalidade para 0px*/
+* 
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+/* COR DO WEBSITE */
 body 
     {   
         background-color: white; 
     }
 
+
 /* LINKS */
+/* para os hiperlinks não terem decoração e cor, quando ativos, passados por cima e já visitados */
 a:link { color: rgb(0, 0, 0); text-decoration: none; }
 a:hover { color: rgb(0, 0, 0); text-decoration: none; }
 a:active { color: rgb(0, 0, 0); text-decoration: none; }
 a:visited { color: rgb(0, 0, 0); text-decoration: none; }
 
+
 /* BARRA DE NAVEGAÇÃO */
+/* define a tipografia, posição, cor e decoração da barra de navegação */
 nav 
-{
-    font-family: "Edu NSW ACT Foundation", bold;
-    position: fixed;
-        top: 0px;
-        left: 0px;
-        width: 100%;
-        height: 70px;
+    {
+        font-family: "Edu NSW ACT Foundation", bold;
+        position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 70px;
 
         background-color: #D9D9D9;
         outline-width: 2px;
         outline-color: black;
         outline-style: solid;
-}
+    }
 
+/* para os elementos se encontrarem na mesma linha e alinhados à direita */
 li 
     {
         display: inline;
         float:right;
     }
 
+/* para que a lista não tenha decoração e definição do tamanho do texto */
 ul {
         list-style-type: none;
         font-size: 25px;
     }
 
-li a {
+/* coloca em uma linha separada e centra o texto */
+li a 
+    {
         display: block;
-        text-align: center;
-
-        text-decoration: none;
+        padding: 20px 20px;
     }  
 
+/* quando o rato passa por cima, a cor de fundo do link muda de cor*/
 li a:hover 
     {
         background-color: rgb(197, 196, 196);
@@ -57,6 +76,7 @@ li a:hover
 
 
 /* TEXTO */
+/* define tipografia, alinhamento, tamanho e margens do heading */
 h1
     {
         font-family: "Edu NSW ACT Foundation", bold;
@@ -68,6 +88,7 @@ h1
     }
 
 /* GALERIA */
+/* torna a galeria em um layout mais flexível. definindo a direção de seguimento dos elementos, alinhamento, margens e espaçamento */
 section
     {
         display: flex;
@@ -80,22 +101,25 @@ section
         margin: 50px;
     }
 
+/* define o tamanho e flexibilidade dos elementos na página */
 section>a 
     {
         flex-basis: 30%;
     }
 
+/* define o espaçamento entre as filas */
 section>a>figure 
     {
-        width: 100%;
         margin-bottom: 20px;
     }
 
+/* define o tamanho das imagens */
 main>section>a>figure>img 
-{
-    width: 100%;
-}
+    {
+        width: 100%;
+    }
 
+/* define a tipografia, alinhamento, cor e tamanho das legendas das imagens */
 figcaption 
     {
         font-family: "Open Sans";
@@ -105,6 +129,7 @@ figcaption
     }
 
 /* RODAPÉ */
+/* define margens e decoração do rodapé */
 footer
     {
         margin-top: 90px;
@@ -117,40 +142,49 @@ footer
         outline-offset: 20px;
     }
 
+/* define tipografia e alinhamento do texto do rodapé */
 footer p
-{
-    font-family: "Open Sans";
-    text-align: center;
-}
+    {
+        font-family: "Open Sans";
+        text-align: center;
+    }
 
 /* ------ RESPONSIVE LAYOUTS ------ */
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) 
+/* ECRÃS PEQUENOS */
+/* define o layout da página em ecrãs de largura entre 300px e 600px */
+@media only screen and (min-width: 300px) and (max-width: 600px) 
 {
+    /* diminui o tamanho da barra de navegação */
     nav
         {
             height: 55px;
         }
+    /* diminui o tamanho de letra do texto da barra de navegação */
     ul
         {
             font-size:20px;
         }
+    /* muda o espaçamento dentro do borda do elemtento na barra de navegação */
     li a
         {
             padding: 15px 15px;
         }
+    /* diminui o tamanho do texto do heading */
     h1 
         {
             font-size: 30px;
         }
+    /* muda a direção da galeria para coluna */
     section
         {
             flex-direction: column;
         }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* ECRÃS MÉDIOS */
+/* define o layout da página para ecrãs de largura de 600px(+) */
+/* mantem as medidas anteriormente estipuladas ( não aceitava o responsive mais pequeno sem ter também esta secção) */
 @media only screen and (min-width: 600px) 
 {
     nav

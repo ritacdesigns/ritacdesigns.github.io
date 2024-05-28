@@ -1,55 +1,74 @@
-* 
-{
-    margin: 0px;
-    padding: 0px;
-}
+/*
+ESAD.CR - Design Gráfico e Multimédia
+2023/2024 - 3ºano, 2ºsemestre
+Laboratório de Projeto II - Professor Marco Heleno
 
-/* COR DO WEBSITE E TIPOGRAFIA */
+Rita Alves da Cruz 3210506
+31/05/2024
+*/
+
+
+/* define a margem da página na sua totalidade para 0px*/
+* 
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+/* COR DO WEBSITE */
 body 
     {   
         background-color: white; 
     }
 
+
 /* LINKS */
+/* para os hiperlinks não terem decoração e cor, quando ativos, passados por cima e já visitados */
 a:link { color: rgb(0, 0, 0); text-decoration: none; }
 a:hover { color: rgb(0, 0, 0); text-decoration: none; }
 a:active { color: rgb(0, 0, 0); text-decoration: none; }
 a:visited { color: rgb(0, 0, 0); text-decoration: none; }
 
+
 /* BARRA DE NAVEGAÇÃO */
+/* define a tipografia, posição, cor e decoração da barra de navegação */
 nav 
-{
-    font-family: "Edu NSW ACT Foundation", bold;
-    position: fixed;
-        top: 0px;
-        left: 0px;
-        width: 100%;
-        height: 70px;
+    {
+        font-family: "Edu NSW ACT Foundation", bold;
+        position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 70px;
 
         background-color: #D9D9D9;
         outline-width: 2px;
         outline-color: black;
         outline-style: solid;
-}
+    }
 
+/* para os elementos se encontrarem na mesma linha e alinhados à direita */
 li 
     {
         display: inline;
         float:right;
     }
 
+/* para que a lista não tenha decoração e definição do tamanho do texto */
 ul {
         list-style-type: none;
         font-size: 25px;
     }
 
-li a {
+/* coloca em uma linha separada e centra o texto */
+li a 
+    {
         display: block;
-        text-align: center;
         padding: 20px 20px;
-        text-decoration: none;
     }  
 
+/* quando o rato passa por cima, a cor de fundo do link muda de cor*/
 li a:hover 
     {
         background-color: rgb(197, 196, 196);
@@ -57,32 +76,34 @@ li a:hover
 
 
 /* BOTÃO */
+/* para centrar o elemento ao centro*/
 #work_container 
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /*margin-bottom: 100px;*/
-}
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+/* define a tipografia, tamanho, alinhamento, decoração do texto, espaço dentro da borda, cor e tamanho do elemento */
 #work
     {
         font-family: "Open Sans";
         font-size: 20px;
         text-align: center;
-        text-align: center;
         padding: 20px 20px;
-        text-decoration: none;
-        color: black;
         background-color: #D9D9D9;
         width: 200px;
     }
 
+/* quando o rato passa por cima, a cor do elemento muda */
 #work:hover
     {
         background-color: rgb(197, 196, 196);
     }
 
+
 /* TEXTO */
+/* define a tipografia, alinhamento, tamanho e margens do heading */
 h1
     {
         font-family: "Edu NSW ACT Foundation", bold;
@@ -91,14 +112,14 @@ h1
         margin-right: 50px;
         margin-top: 100px;
     }
-
+/* define a tipografia, alinhamento e margem do heading */
 h2
     {
         font-family: "Edu NSW ACT Foundation", bold;
         text-align: center;
         margin:40px;
     }
-
+/* define a tipografia, alinhamento, tamanho e margens do texto */
 main p
     {
         font-family: "Open Sans";
@@ -109,7 +130,7 @@ main p
         margin-top: 10px;
         margin-bottom: 100px
     }
-
+/* define a tipografia, alinhamento, tamanho e margens do heading */
 h4
     {
         font-family: "Edu NSW ACT Foundation", bold;
@@ -119,7 +140,9 @@ h4
         margin-bottom: 30px;
     }
 
+
 /* GALERIA */
+/* torna a galeria em um layout mais flexível. definindo a direção de seguimento dos elementos, alinhamento, margens e espaçamento */
 section
     {
         display: flex;
@@ -127,15 +150,19 @@ section
         align-items:flex-start;
         align-content: flex-start; 
         gap: 2%;
-        padding: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 10px;
     }
-
+/* define o tamanho das imagens */
 section img
     {
         width: 100%;
     }
 
+
 /* RODAPÉ */
+/* define as margens e decoração do rodapé */
 footer
     {
         margin-top: 90px;
@@ -148,53 +175,66 @@ footer
         outline-offset: 20px;
     }
 
+/* define tipografia e alinhamento do texto do rodapé */
 footer p
     {
         font-family: "Open Sans";
         text-align: center;
     }
 
+
 /* ------ RESPONSIVE LAYOUTS ------ */
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 300px) 
+/* ECRÃS PEQUENOS */
+/* define o layout da página em ecrãs de largura entre 300px e 600px */
+@media only screen and (min-width: 300px) and (max-width: 600px) 
 {
+    /* diminui o tamanho da barra de navegação */
     nav
         {
             height: 55px;
         }
+    /* diminui o tamanho de letra do texto da barra de navegação */
     ul
         {
             font-size:20px;
         }
+    /* muda o espaçamento dentro do borda do elemtento na barra de navegação */
     li a
         {
             padding: 15px 15px;
         }
+    /* diminui o tamanho do texto do heading */
     h1 
         {
             font-size: 40px;
         }
+    /* diminui o tamanho do texto do heading */
     h2
         {
             font-size:20px;
         }
+    /* diminui o tamanho do texto */
     main p 
         {
             font-size: 20px;
         }
+    /* diminui o tamanho do texto do heading */
     h4
         {
             margin-top: 20px;
         }
+    /* muda a direção da galeria para coluna */
     section
         {
             flex-direction: column;
-            padding-top: 10px;
         }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+
+/* ECRÃS MÉDIOS */
+/* define o layout da página para ecrãs de largura de 600px(+) */
+/* mantem as medidas anteriormente estipuladas ( não aceitava o responsive mais pequeno sem ter também esta secção) */
 @media only screen and (min-width: 600px) 
 {
     nav
@@ -229,7 +269,6 @@ footer p
     section
         {
             flex-direction: row;
-            padding-top: 10px;
         }
 }
 
