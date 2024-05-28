@@ -81,7 +81,6 @@ video
     grid-template-areas:
       'aside header'
       'aside footer';
-    background-color: blue;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 80px;
@@ -91,7 +90,6 @@ video
 /* VIDEO */
 .video 
     {
-        background-color: aqua;
         grid-area: aside;
         place-content: center;
     }
@@ -104,7 +102,8 @@ video
 
 .video>article>iframe 
 {
-    width: 100%;
+    width:100%;
+    height:500px;
 }
 
 .imagem>article>video
@@ -115,7 +114,6 @@ video
 /* INTRODUÇÃO */
 .descricao
     {
-        background-color: pink; 
         padding: 20px;
         padding-right: 0px;
         grid-area: header;
@@ -130,7 +128,6 @@ video
 /* CREDITOS */
 .creditos
     {
-        background-color: orange;
         padding:20px;
         padding-right: 0px;
         grid-area: footer;

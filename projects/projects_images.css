@@ -73,7 +73,6 @@ h1
     grid-template-areas:
       'image1 image2 image3 image4'
       'header header footer footer';
-    background-color: blue;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 80px;
@@ -83,28 +82,24 @@ h1
 /* IMAGENS */
 .imagem1 
     {
-        background-color: aqua;
         grid-area: image1;
         padding:10px;
     }
 
 .imagem2 
     {
-        background-color: lightgreen;
         grid-area: image2;
         padding:10px;
     }
 
 .imagem3 
     {
-        background-color: plum;
         grid-area: image3;
         padding:10px;
     }
 
 .imagem4
     {
-        background-color: burlywood;
         grid-area: image4;
         padding:10px;
     }
@@ -117,7 +112,6 @@ div>article>img
 /* INTRODUÇÃO */
 .descricao
     {
-        background-color: pink; 
         padding: 20px;
         padding-right: 0px;
         grid-area: header;
@@ -132,7 +126,6 @@ div>article>img
 /* CREDITOS */
 .creditos
     {
-        background-color: orange;
         padding:20px;
         padding-right: 0px;
         grid-area: footer;

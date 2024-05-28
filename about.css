@@ -80,7 +80,6 @@ h3
     grid-template-areas:
       'aside header header'
       'aside main footer';
-    background-color: blue;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 80px;
@@ -90,10 +89,10 @@ h3
 /* IMAGEM */
 .imagem 
   {
-    background-color: aqua;
+    display:grid;
     padding: 30px;
     grid-area: aside;
-    place-content: center;
+    place-content: center center;
   }
 
 .imagem>article>img
@@ -104,7 +103,6 @@ h3
 /* INTRODUÇÃO */
 .intro
   {
-    background-color: pink; 
     padding: 20px;
     padding-right: 0px;
     grid-area: header;
@@ -120,7 +118,6 @@ h3
 .lista
   {
     display:grid;
-    background-color: plum;
     padding:20px;
     grid-area: main;
     place-items: center center;
@@ -129,7 +126,6 @@ h3
 /* PROGRAMAS */
 .programas
   {
-    background-color: orange;
     padding:20px;
     grid-area: footer;
     display: flex;
