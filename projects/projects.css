@@ -130,7 +130,6 @@ h1
 video
     {
         height: 500px;
-        margin-right: 50px;
     }
 
 /* define tamanho do video? */
@@ -146,8 +145,7 @@ video
     {
         grid-area: header;
         place-content: center;
-        padding:20px;
-        padding-right: 0px;
+        padding-top: 50px;
     }
 
 /* alinha texto à direita */
@@ -229,9 +227,16 @@ footer p
                 'aside'
                 'aside'
                 'header'
-                'main'
                 'footer';
             margin-bottom: 80px;
+        }
+    .video>article>iframe 
+        {
+            height:400px;
+        }
+    video
+        {
+            height: 400px;
         }
 }
 
@@ -265,11 +270,8 @@ footer p
             grid-template-columns: 1fr;
             grid-template-rows: 1fr;
             grid-template-areas:
-                'aside'
-                'aside'
-                'header'
-                'main'
-                'footer';
+                'aside header'
+                'aside footer';
             margin-bottom: 80px;
         }
             
